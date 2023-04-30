@@ -5,6 +5,8 @@ This project focuses on improving the GRU4Rec + SNQN recommender with the help o
 ## 01 Introduction
 ## 02 Literature Review
 ## 03 Methodology
+### 031 Data Cleaning and Feature Engineering
+### 032 Modeling
 ## 04 Results
 ## 05 Conclusion and Limitations
 ## 06 Instructions
