@@ -11,7 +11,7 @@ In our project, we would like to make improvements on the aforementioned SNQN mo
 Personalized real-time recommendation has had a profound impact on retail, media, entertainment, and other industries. However, developing recommender systems for every use case is costly, time-consuming, and resource-intensive. To fill this gap, Yifei Ma et al. have proposed a number of black-box recommender systems that can adapt to a diverse set of scenarios without the need for manual tuning. The structure that Yifei proposed allowed inclusion of item features and cold start. We will adopt this methodology and apply it to modify the backbone of Xin Xin's SNQN model.
 ## 03 Methodology
 ### 031 Data Cleaning and Feature Engineering
-
+For the Retail Rocket dataset, we largely followed the same data cleaning processes as that proposed by Xin Xin's paper. We first removed the users or items that have lower than 2 interactions. We then label encoded the session_ids and behavior. Once we created a sorted data table, we read in the two item properties files and cancated these 2 files. Items without category_ids were removed. Last but not least, we one-hot encoded the merged dataset of event plus item features. We used the one-hot encoded item_category dataset for training the model. 
 ### 032 Modeling
 ## 04 Results
 ## 05 Conclusion and Limitations
