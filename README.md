@@ -18,4 +18,5 @@ We used the source code from Xinxin where they implemented the Q Network. We add
 ## 05 Conclusion and Limitations
 ## 06 Instructions
 ## 07 Reference
-- Supervised Advantage Actor-Critic for Recommender Systems | X. Xin, A. Karatzoglou, I. Arapakis, and J. M. Jose, Proceedings of ACM Conference (Conference’17), 2021.
+1. Supervised Advantage Actor-Critic for Recommender Systems | X. Xin, A. Karatzoglou, I. Arapakis, and J. M. Jose | Proceedings of ACM Conference (Conference’17), 2021.  
+2. Temporal-Contextual Recommendation in Real-Time | Y. Ma, H. Lin, B. Narayanaswamy, H. Ding | The 26th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, 2020.
