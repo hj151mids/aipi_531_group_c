@@ -23,8 +23,9 @@ We used the source code from Xinxin where they implemented the Q Network. We add
 ## 05 Conclusion and Limitations
 ## 06 Instructions
 1. We have created notebooks for you to run our models in Google Colab. You will need to upload this repository, along with the H&M and Retail Rocket datasets to Google Colab. Please refer to the following table for the:  
+
 | Model | File Path | Data Source |
-|---|---|---|
+|:--------------|:-------------|:-------------|
 | SNQN + Feature Network | ~./AIPI531_Project_SNQN_itemfeatures_retailrocket.ipynb | Retail Rocket |
 | SNQN | ~./AIPI531_Project_SNQN_retailrocket.ipynb | Retail Rocket |
 | SNQN + Feature Network | ~./HM_Chloe/AIPI531_Project_SNQN_itemfeatures_HM.ipynb | H&M |
