@@ -22,7 +22,7 @@ We used the source code from Xinxin where they implemented the Q Network. We add
 ## 04 Results
 ## 05 Conclusion and Limitations
 ## 06 Instructions
-1. We have created notebooks for you to run our models in Google Colab. You will need to upload this repository, along with the H&M and Retail Rocket datasets to Google Colab. Please refer to the following table for the:  
+1. We have created notebooks for you to run our models in Google Colab. You will need to upload this repository, along with the H&M and Retail Rocket datasets to Google Colab. Please refer to the following table for the model and driver notebook that you are looking for:  
 
 | Model | Model File Path| Driver Notebook File Path | Data Source |
 |:--------------|:-------------|:-------------|:-------------
