@@ -17,3 +17,5 @@ We used the source code from Xinxin where they implemented the Q Network. We add
 ## 04 Results
 ## 05 Conclusion and Limitations
 ## 06 Instructions
+## 07 Reference
+- Supervised Advantage Actor-Critic for Recommender Systems | X. Xin, A. Karatzoglou, I. Arapakis, and J. M. Jose, Proceedings of ACM Conference (Conference’17), 2021.
