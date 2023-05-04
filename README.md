@@ -17,6 +17,11 @@ We used the source code from Xinxin where they implemented the Q Network. We add
 ## 04 Results
 ## 05 Conclusion and Limitations
 ## 06 Instructions
+1. We have created notebooks for you to run our model in Google Colab. You will need to upload this repository, along with the H&M and Retail Rocket datasets to Google Colab.
+2. Open up terminal in the selected driver notebook. Here is an example photo of how you can access it: ![image](https://user-images.githubusercontent.com/90075179/236083065-e42fad95-ac6f-4b74-9651-c3de9728d20a.png)
+3. To install the requirements in a requirements.txt file, you can use the following command: `pip install -r requirements.txt`. This will install all of the packages listed in the requirements.txt file, along with their dependencies.
+4. If you are using a virtual environment, you will need to activate it before installing the requirements: type `source venv/bin/activate` and then `pip install -r requirements.txt`
+5. Once the requirements are installed, you can start using them in the project. If you have never subscribed to Colab Pro, then you will not have access to the terminal. In this case, simply copy the version numbers and paste it to the `!pip install...` line in the driver notebook. 
 ## 07 Reference
 1. Supervised Advantage Actor-Critic for Recommender Systems | X. Xin, A. Karatzoglou, I. Arapakis, and J. M. Jose | Proceedings of ACM Conference (Conference’17), 2021.  
 2. Temporal-Contextual Recommendation in Real-Time | Y. Ma, H. Lin, B. Narayanaswamy, H. Ding | The 26th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, 2020.
