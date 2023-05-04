@@ -28,7 +28,7 @@ We used the source code from Xinxin where they implemented the Q Network. We add
 |:--------------|:-------------|:-------------|:-------------
 | GRU4Rec + Feature Network, SNQN On| ~./HM_Chloe/SNQN_v1.py | ~./AIPI531_Project_SNQN_itemfeatures_retailrocket.ipynb | Retail Rocket |
 | GRU4Rec, SNQN On| **To be updated** | ~./AIPI531_Project_SNQN_retailrocket.ipynb | Retail Rocket |
-| GRU4Rec, SNQN Off (Experiment) | ~./Kaggle/SNQN_v1.py | ~./Kaggle/GRU4REC.ipynb | Retail Rocket |
+| GRU4Rec, SNQN Off (Experiment) | ~./Kaggle/SNQN_v3.py | ~./Kaggle/GRU4REC.ipynb | Retail Rocket |
 | GRU4Rec + Feature Network, SNQN On | ~./HM_Chloe/SNQN_v1.py | ~./HM_Chloe/AIPI531_Project_SNQN_itemfeatures_HM.ipynb | H&M |
 | GRU4Rec, SNQN On | ~./HM_Chloe/SNQN.py | ~./HM_Chloe/AIPI531_Project_SNQN_HM.ipynb | H&M |
 
