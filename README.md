@@ -24,12 +24,12 @@ We used the source code from Xinxin where they implemented the Q Network. We add
 ## 06 Instructions
 1. We have created notebooks for you to run our models in Google Colab. You will need to upload this repository, along with the H&M and Retail Rocket datasets to Google Colab. Please refer to the following table for the:  
 
-| Model | File Path | Data Source |
-|:--------------|:-------------|:-------------|
-| SNQN + Feature Network | ~./AIPI531_Project_SNQN_itemfeatures_retailrocket.ipynb | Retail Rocket |
-| SNQN | ~./AIPI531_Project_SNQN_retailrocket.ipynb | Retail Rocket |
-| SNQN + Feature Network | ~./HM_Chloe/AIPI531_Project_SNQN_itemfeatures_HM.ipynb | H&M |
-| SNQN | ~./HM_Chloe/AIPI531_Project_SNQN_itemfeatures_HM.ipynb | H&M |
+| Model | Model File Path| Driver Notebook File Path | Data Source |
+|:--------------|:-------------|:-------------|:-------------
+| SNQN + Feature Network | ~./Kaggle/SNQNv3.py | ~./AIPI531_Project_SNQN_itemfeatures_retailrocket.ipynb | Retail Rocket |
+| SNQN | **To be updated** | ~./AIPI531_Project_SNQN_retailrocket.ipynb | Retail Rocket |
+| SNQN + Feature Network | ~./HM_Chloe/SNQN_v1.py | ~./HM_Chloe/AIPI531_Project_SNQN_itemfeatures_HM.ipynb | H&M |
+| SNQN | ~./HM_Chloe/SNQN.py | ~./HM_Chloe/AIPI531_Project_SNQN_HM.ipynb | H&M |
 
 2. Open up terminal in the selected driver notebook. Here is an example photo of how you can access it: ![image](https://user-images.githubusercontent.com/90075179/236083065-e42fad95-ac6f-4b74-9651-c3de9728d20a.png)  
 
