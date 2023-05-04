@@ -26,10 +26,10 @@ We used the source code from Xinxin where they implemented the Q Network. We add
 
 | Model | Model File Path| Driver Notebook File Path | Data Source |
 |:--------------|:-------------|:-------------|:-------------
-| SNQN + Feature Network | ~./Kaggle/SNQNv3.py | ~./AIPI531_Project_SNQN_itemfeatures_retailrocket.ipynb | Retail Rocket |
-| SNQN | **To be updated** | ~./AIPI531_Project_SNQN_retailrocket.ipynb | Retail Rocket |
-| SNQN + Feature Network | ~./HM_Chloe/SNQN_v1.py | ~./HM_Chloe/AIPI531_Project_SNQN_itemfeatures_HM.ipynb | H&M |
-| SNQN | ~./HM_Chloe/SNQN.py | ~./HM_Chloe/AIPI531_Project_SNQN_HM.ipynb | H&M |
+| GRU4Rec + Feature Network, SNQN On| ~./Kaggle/SNQNv3.py | ~./AIPI531_Project_SNQN_itemfeatures_retailrocket.ipynb | Retail Rocket |
+| GRU4Rec, SNQN On| **To be updated** | ~./AIPI531_Project_SNQN_retailrocket.ipynb | Retail Rocket |
+| GRU4Rec + Feature Network, SNQN On | ~./HM_Chloe/SNQN_v1.py | ~./HM_Chloe/AIPI531_Project_SNQN_itemfeatures_HM.ipynb | H&M |
+| GRU4Rec, SNQN On | ~./HM_Chloe/SNQN.py | ~./HM_Chloe/AIPI531_Project_SNQN_HM.ipynb | H&M |
 
 2. Open up terminal in the selected driver notebook. Here is an example photo of how you can access it: ![image](https://user-images.githubusercontent.com/90075179/236083065-e42fad95-ac6f-4b74-9651-c3de9728d20a.png)  
 
