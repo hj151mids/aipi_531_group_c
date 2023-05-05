@@ -1,4 +1,4 @@
-# Improving GRU4Rec with the Addition of Feature Network
+# Improving Deep-RL based GRU4Rec Product Recommender with the Addition of Side Information Such as Item Features
 Author: Ya-Yun Huang, Haoliang Jiang, Yufei Lei, Chloe Liu
 
 ## Introduction
