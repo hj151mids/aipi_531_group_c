@@ -33,15 +33,17 @@ We used the source code from Xinxin where they implemented the Q Network. We add
 | GRU4Rec, SNQN On | ~./HM_Chloe/SNQN.py | ~./HM_Chloe/AIPI531_Project_SNQN_HM.ipynb | H&M |
 
 
-2. Open up terminal in the selected driver notebook. Here is an example photo of how you can access it: ![image](https://user-images.githubusercontent.com/90075179/236083065-e42fad95-ac6f-4b74-9651-c3de9728d20a.png)  
+2. Make sure that you have uploaded the code files and datasets to Google Drive and mounted your drive correctly. After mounting, modify the project directory path if necessary   
 
-3. To install the requirements in a requirements.txt file, you can use the following command: `pip install -r requirements.txt`. This will install all of the packages listed in the requirements.txt file, along with their dependencies  
+3. Open up terminal in the selected driver notebook. Here is an example photo of how you can access it: ![image](https://user-images.githubusercontent.com/90075179/236083065-e42fad95-ac6f-4b74-9651-c3de9728d20a.png)  
 
-4. If you are using a virtual environment, you will need to activate it before installing the requirements: type `source venv/bin/activate` and then `pip install -r requirements.txt`  
+4. To install the requirements in a requirements.txt file, you can use the following command: `pip install -r requirements.txt`. This will install all of the packages listed in the requirements.txt file, along with their dependencies  
 
-5. Once the requirements are installed, you can start using them in the project. If you have never subscribed to Colab Pro, then you will not have access to the terminal. In this case, simply copy the version numbers and paste it to the `!pip install...` line in the driver notebook  
+5. If you are using a virtual environment, you will need to activate it before installing the requirements: type `source venv/bin/activate` and then `pip install -r requirements.txt`  
 
-6. 
+6. Once the requirements are installed, you can start using them in the project. If you have never subscribed to Colab Pro, then you will not have access to the terminal. In this case, simply run the `!pip install...` lines in the driver notebook that you selected  
+
+7. Once you have successfully installed all the packages, you will be able to . In step 3) of each notebook, just run the cell `! python "model.py" --model=GRU --epoch=1` to select the model you want to train, initiate the training, and view the losses and key metrics. 
 
 ## 07 Reference
 1. Supervised Advantage Actor-Critic for Recommender Systems | X. Xin, A. Karatzoglou, I. Arapakis, and J. M. Jose | Proceedings of ACM Conference (Conference’17), 2021.  
