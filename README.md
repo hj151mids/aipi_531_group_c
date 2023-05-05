@@ -28,12 +28,13 @@ We used the source code from Xinxin where they implemented the joint training of
 ## Model Results and Performance Evaluation
 We used normalized discounted hit ratio (hr) and cumulative gain (ndcg) as our performance evaluation metrics. The quality of the recommendation list is evaluated by ndcg@10, which assigns higher scores to items that are ranked higher in the top-10 positions of the list. hr@10 evaluates if the model-generated recommendation list has the ground-truth item in its top-10 positions.  
 
-Here are the result table for the four RL based models that we trained in 1 epoch:  
+Here are the result table for the supervised baseline and four RL based models that we trained:  
 
 | Model | Data | Clicks hr@10 | Clicks ncdg@10 | Purchase hr@10 | Purchase ncdg@10 |
 |:--------------|:-------------|:-------------|:-------------|:-------------|:-------------
 | GRU4Rec + Feature Network, SNQN On | Retail Rocket | 0.001454 | 0.000540 | 0.000000 | 0.000000 |
 | GRU4Rec, SNQN On | Retail Rocket | 0.000169 | 0.000068 | 0.000378 | 0.000176 |
+| GRU4Rec, SNQN Off (Baseline) | Retail Rocket | 0.001553 | 0.000595 | 0.002757 | 0.000830 |
 | GRU4Rec + Feature Network, SNQN On | H&M | 0.004000 | 0.001574 | 0.000401 | 0.000162 |  
 |GRU4Rec, SNQN On | H&M | 0.00000 | 0.000000 | 0.000368 | 0.000179 |
 
